@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp3"
+    android:orientation="vertical"
+    tools:context=".ShippingActivity">
+
+    <ImageView
+        android:id="@+id/medpro"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingRight="20dp"
+        app:srcCompat="@drawable/m" />
+
+    <TextView
+        android:id="@+id/shipping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Checkout"
+        android:textAlignment="center"
+        android:textColor="@color/Sub"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/home"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Address"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+    <EditText
+        android:id="@+id/edtNo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/call"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Contact No"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+    <EditText
+        android:id="@+id/edtCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/payment"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Card Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+
+    <EditText
+        android:id="@+id/edtExp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/date"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Expiry date"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+    <EditText
+        android:id="@+id/edtCVV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/cvv"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter CVV"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+
+    <EditText
+        android:id="@+id/Amount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/price"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+
+    <Button
+        android:id="@+id/btnSubmit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_marginLeft"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:layout_marginRight="@dimen/btn_marginRight"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="@color/Sub"
+        android:text="Pay"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHome1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_marginLeft"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="@dimen/btn_marginRight"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:backgroundTint="@color/Sub"
+        android:text="Home"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

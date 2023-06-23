@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MedPro</string>
+    <string name="login">Login</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="btnRegister">REGISTER</string>
+    <string name="Register">Register</string>
+    <string name="btnSubmit">REGISTER</string>
+    <string name="have_an_account">Already Have an account?</string>
+    <string name="Doctor">Find Doctors</string>
+    <string name="Medicine">Buy Drugs</string>
+    <string name="Cart">My Orders</string>
+    <string name="MyProfile">User Profile</string>
+    <string name="Logout">Logout</string>
+    <string name="Appointments">Bookings</string>
+    <string name="My_Profile">My Profile</string>
+    <string name="btn_ClickUpdate">Update</string>
+    <string name="btn_Delete">Delete</string>
+    <string name="Update_Account">Update Account</string>
+    <string name="btn_Update">Update</string>
+    <string name="btn_Home">BACK TO HOME</string>
+    <string name="Labs">Lab Tests</string>
+    <string name="MyLabs">My Labs</string>
+    <string name="Articles">Articles</string>
+    <string name="health">Health Articles</string>
+
+    <string name="Shipping">Shipping Details</string>
+    <string name="btnPay">SUBMIT</string>
+
+    <string name="DoctorsPanel">All Doctors</string>
+    <string name="familyPhysician">Family Doctor</string>
+    <string name="cardio">Cardiologists</string>
+    <string name="dietician">Dieticians</string>
+    <string name="dentist">Dentists</string>
+    <string name="back">Back</string>
+    <string name="appointmets">My Appointments</string>
+    <string name="checkout">Proceed to Checkout</string>
+    <string name="timeSelection">Select Time</string>
+    <string name="dateSelection">Select Date</string>
+    <string name="home">Back To Home</string>
+    <string name="title_activity_lab">LabActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
+
+
+

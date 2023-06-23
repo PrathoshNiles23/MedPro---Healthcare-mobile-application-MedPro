@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#0A5DCE"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <ImageView
+        android:id="@+id/medpro"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/m" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/Sub"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edtFullname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@color/Tint"
+        android:backgroundTintMode="src_atop"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Username (Email)"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/Tint"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_marginLeft"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:layout_marginRight="@dimen/btn_marginRight"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:backgroundTint="@color/Sub"
+        android:text="@string/btnLogin"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_marginLeft"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:layout_marginRight="@dimen/btn_marginRight"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:backgroundTint="@color/Sub"
+        android:text="@string/btnRegister"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

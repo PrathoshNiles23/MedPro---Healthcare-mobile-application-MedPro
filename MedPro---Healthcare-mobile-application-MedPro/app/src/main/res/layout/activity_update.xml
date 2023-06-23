@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/input_bg"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <ImageView
+        android:id="@+id/medpro"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/m" />
+
+    <ImageView
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/update" />
+
+    <TextView
+        android:id="@+id/Update_Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/Update_Account"
+        android:textAlignment="center"
+        android:textColor="@color/Sub"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/Update_Account"
+        android:textAlignment="center"
+        android:textColor="@color/Sub"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Up_Name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/Tint"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+
+    <EditText
+        android:id="@+id/Up_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/Tint"
+        android:drawableLeft="@drawable/call"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+
+    <EditText
+        android:id="@+id/Up_Password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/Tint"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_marginLeft"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:layout_marginRight="@dimen/btn_marginRight"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:backgroundTint="@color/Sub"
+        android:text="@string/btn_Update"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_marginLeft"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="@dimen/btn_marginRight"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:backgroundTint="@color/Sub"
+        android:text="@string/btn_Home"
+        android:textStyle="bold" />
+
+</LinearLayout>

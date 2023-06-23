@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/input_bg"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    tools:context=".UserProfileActivity">
+
+    <ImageView
+        android:id="@+id/medpro"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/m" />
+
+    <ImageView
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/myprofile" />
+
+    <TextView
+        android:id="@+id/My_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/My_Profile"
+        android:textAlignment="center"
+        android:textColor="@color/Sub"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/My_Name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/Tint"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:text="User"
+        android:ems="10"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+    <EditText
+        android:id="@+id/My_Email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/Tint"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="user@gmail.com"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+    <EditText
+        android:id="@+id/My_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/Tint"
+        android:drawableLeft="@drawable/call"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="0123456789"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+
+    <EditText
+        android:id="@+id/My_Password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textbox_height"
+        android:layout_marginLeft="@dimen/textbox_marginLeft"
+        android:layout_marginTop="@dimen/textbox_marginTop"
+        android:layout_marginRight="@dimen/textbox_marginRight"
+        android:layout_marginBottom="@dimen/textbox_marginBottom"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/Tint"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:text="gfhEE334"
+        android:textAlignment="viewStart"
+        android:textColorHint="?android:attr/textColorHint" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnClickUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Sub"
+            android:text="@string/btn_ClickUpdate"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Sub"
+            android:text="@string/btn_Delete"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnClickUpdate"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_Home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="@color/Sub"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.644" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
